@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<title>CXC Textbook Downloads</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-black">
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="downloads.html" class="w3-bar-item w3-button">Downloads</a>
+  <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>CXC Textbook Downloads</b></h1>
+  <style>
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Automatic Slideshow</h2>
+    <p>Change image every 2 seconds:</p>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://wealthofgeeks.com/wp-content/uploads/2020/06/Sell-Your-Textbooks.png" style="width:100%; border-radius: 10px;">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://wealthofgeeks.com/wp-content/uploads/2020/06/Sell-Your-Textbooks.png" style="width:100%; border-radius: 10px;">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://wealthofgeeks.com/wp-content/uploads/2020/06/Sell-Your-Textbooks.png" style="width:100%; border-radius: 10px;">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+    </script>
+    
+    </body>
+  <p>Welcome to the home of free CXC Textbook downloads!</p>
+</header>
+
+
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="/w3images/woods.jpg" alt="Nature" style="width:100%; border-radius: 10px;">
+    <div class="w3-container">
+      <h3><b>Title 1</b></h3>
+      <h5>Subject, <span class="w3-opacity">Level</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Download the <a href="example.pdf">textbook here</a></p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%; border-radius: 10px;">
+    <div class="w3-container">
+      <h3><b>Title 2</b></h3>
+      <h5>Subject, <span class="w3-opacity">Level</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Download the <a href="example.pdf">textbook here</a></p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="/w3images/avatar_g.jpg" style="width:100%; border-radius: 10px;">
+    <div class="w3-container w3-white">
+      <h4><b>About</b></h4>
+      <p>Welcome to the home of free CXC Textbook downloads! Here you can find textbooks for all available CXC subjects.</p>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Subjects</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px; border-radius: 10px;">
+        <span class="w3-large">English A</span><br>
+        <span>Level: CSEC</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px; border-radius: 10px;">
+        <span class="w3-large">Mathematics</span><br>
+        <span>Level: CSEC</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px; border-radius: 10px;">
+        <span class="w3-large">Information Technology</span><br>
+        <span>Level: CAPE</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px; border-radius: 10px;">
+        <span class="w3-large">Chemistry</span><br>
+        <span>Level: CAPE</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+  
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">CXC</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">CSEC</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">CAPE</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Textbooks</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Downloads</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Free</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">English A</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Mathematics</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Chemistry</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Information Technology</span>
+    </p>
+    </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>

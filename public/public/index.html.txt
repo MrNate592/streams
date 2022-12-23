@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Textbook Sharing Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Textbook Sharing Website</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse Textbooks</a></li>
+                <li><a href="post.html">Post Textbooks</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Welcome to the Textbook Sharing Website!</h2>
+            <p>We are a website dedicated to helping students share their textbooks with each other. Whether you are a student looking for a textbook you need, or you have a textbook that you don't need anymore and would like to give to someone else, we can help!</p>
+            <p>Browse our selection of textbooks by visiting the <a href="browse.html">Browse Textbooks</a> page. You can also post a textbook that you would like to give away to other students on the <a href="post.html">Post Textbooks</a> page.</p>
+            <p>If you have any questions or comments, please visit the <a href="contact.html">Contact Us</a> page for more information.</p>
+        </main>
+        <footer>
+            <p>Copyright &copy; Textbook Sharing Website. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
